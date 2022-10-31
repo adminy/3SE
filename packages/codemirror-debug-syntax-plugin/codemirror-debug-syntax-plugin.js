@@ -1,6 +1,6 @@
 import { syntaxTree, syntaxTreeAvailable } from "@codemirror/language";
 import { EditorView } from "@codemirror/view";
-import { iterate_with_cursor } from "dral-lezer-helpers";
+import { iterate_with_cursor } from '../../packages/dral-lezer-helpers/dral-lezer-helpers.js'
 
 /**
 /**

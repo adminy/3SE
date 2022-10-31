@@ -1,4 +1,4 @@
-import { MagicWorker } from "@dral/worker-typescript-magic";
+import { MagicWorker } from '../../../packages/worker-typescript-magic/worker-typescript-magic.js'
 
 /**
  * @extends {MagicWorker<import("./transform-javascript-worker-worker.js").Commands>}

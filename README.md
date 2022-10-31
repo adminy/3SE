@@ -1,21 +1,31 @@
-# Notebook Experiments for Notebook Scientists
+# Lezer Playground!
 
-This is currently mainly used for my codemirror-editorstate-in-editorstate experiment.
-Was hoping to make it a bit less heavy on abstraction, but I think this abstraction is very necessary.
+Making writing lezer grammars fun since 2022.
 
-After this abstraction is done and stable, I can do a lot more experiments.
+### [Go visit it now!](https://lezer-playground.vercel.app/)
 
-## Current Todo
 
-- Send whole workspace to the engine, so it can run all the notebooks and keep their results.
-  (Possibly send `run_at=null` for cells that are not in the currently open notebook?)
-- Send cells that are in view to the engine so it can prioritize these and run other cells later.
-  (This will update even during execution, so when scrolling after page load, it should update as you scroll)
+(The app works fully locally, so there is no difference between the hosted version or running it locally)
 
-## Useful links
+## Features
 
-- [Codemirror Reference](https://codemirror.net/docs/ref/)
-- [Codemirror System Guide](https://codemirror.net/docs/guide/)
-- [Typescript In Worker Example (very useful to steal from)](https://codesandbox.io/s/github/danilowoz/sandpack-tsserver?file=/public/workers/tsserver.js)
+- ### Colorful!! 🌈
+- ### Compiles lezer grammar on the fly
+- ### Runs custom javascript necessary for your grammar
+- ### Explore your syntax tree to debug and style it
+- ### Does not _completely_ break when grammar results in infinite loop!
+  (You will have to refresh the page though 🙃)
 
-- [@codemirror/state Github](https://github.com/codemirror/state/blob/main/src/state.ts)
+## Usage
+
+Can only be installed with yarn, because I heavily use workspaces..
+
+```
+yarn install
+```
+
+Now you know the drill:
+
+```
+yarn start
+```

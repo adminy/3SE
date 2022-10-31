@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactWidget, useEditorView } from "react-codemirror-widget";
+import { ReactWidget, useEditorView } from '../../packages/react-codemirror-widget/ReactWidget.js'
 import { ChromePicker } from "react-color";
 import styled from "styled-components";
 

@@ -2,7 +2,7 @@ import { Language } from "@codemirror/language";
 
 import { Range, Text, StateField } from "@codemirror/state";
 import { Decoration, EditorView } from "@codemirror/view";
-import { iterate_with_cursor } from "dral-lezer-helpers";
+import { iterate_with_cursor } from '../../packages/dral-lezer-helpers/dral-lezer-helpers.js'
 import { TreeCursor } from "@lezer/common";
 
 /**

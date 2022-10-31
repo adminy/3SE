@@ -1,7 +1,7 @@
 import "./process-polyfill-mehh.js";
 
-import { transform_code } from "@dral/dralbook-transform-javascript";
-import { handleCalls } from "@dral/worker-typescript-magic/import-in-worker";
+import { transform_code } from '../../../packages/transform-javascript/transform-javascript.js'
+import { handleCalls } from '../../../packages/worker-typescript-magic/import-in-worker.js'
 
 let commands = {
   /** @param {{ code: string }} data */
